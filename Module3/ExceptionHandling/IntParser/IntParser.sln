@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberParser", "NumberParser\NumberParser.csproj", "{D3798CE0-A3CA-43D9-A816-5477D8FFAD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleParser", "ConsoleParser\ConsoleParser.csproj", "{D858AF3D-C9E0-48BC-859A-028A5D706344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3798CE0-A3CA-43D9-A816-5477D8FFAD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3798CE0-A3CA-43D9-A816-5477D8FFAD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3798CE0-A3CA-43D9-A816-5477D8FFAD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3798CE0-A3CA-43D9-A816-5477D8FFAD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D858AF3D-C9E0-48BC-859A-028A5D706344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D858AF3D-C9E0-48BC-859A-028A5D706344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D858AF3D-C9E0-48BC-859A-028A5D706344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D858AF3D-C9E0-48BC-859A-028A5D706344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B56C435F-412E-411A-A5BB-1D79544AD89E}
+	EndGlobalSection
+EndGlobal
