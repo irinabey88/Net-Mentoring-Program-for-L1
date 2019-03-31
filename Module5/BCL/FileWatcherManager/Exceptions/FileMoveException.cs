@@ -3,6 +3,9 @@ using System.Runtime.Serialization;
 
 namespace FileWatcherManager.Exceptions
 {
+    /// <summary>
+    /// Represences an object of <see cref="FileMoveException"/>
+    /// </summary>
     public class FileMoveException : Exception
     {
         public FileMoveException(): base(Resources.Messages.FileMoveEx)
