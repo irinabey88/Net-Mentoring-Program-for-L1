@@ -39,12 +39,10 @@ namespace ReflectionObjectCreator
             }
 
             var resultType = container[type];
-            var res = CreateObject(GetPropertiesName(resultType)
+            return CreateObject(GetPropertiesName(resultType)
                                    ,GetProperties(resultType)
                                    ,$"{resultType.Namespace}.{resultType.Name}"
                                    ,container);
-
-            return res;
         }
 
         public T CreateObject<T>(Dictionary<Type, Type> container)
