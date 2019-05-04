@@ -57,7 +57,6 @@ namespace FileWatcherManager.Services
         {
             foreach (var watcher in _fileSystemWatchers)
             {
-                watcher.Created += OnCreate;
                 watcher.EnableRaisingEvents = true;
             }
         }
